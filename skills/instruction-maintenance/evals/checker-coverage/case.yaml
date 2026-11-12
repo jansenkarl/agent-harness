@@ -1,0 +1,5 @@
+schema_version: "1.1"
+name: checker-coverage
+expected_outcome: |
+  Explain actual enforced thresholds and uncovered source, preserve baseline ratchet,
+  reject arbitrary splitting/limit inflation and do not claim session loading.

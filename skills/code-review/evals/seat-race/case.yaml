@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: seat-race
+expected_outcome: |
+  Demonstrate the concurrent count/insert race with location and impact, suggest an
+  atomic database-enforced capacity strategy conditional on database semantics, and
+  request a concurrency regression test without claiming execution.

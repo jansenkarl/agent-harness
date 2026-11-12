@@ -50,6 +50,23 @@ does not prove that a particular session consumed it.
 
 ## Updates and rollback
 
+### Optional skills
+
+Review `skills/instruction-maintenance/SKILL.md` and `skills/code-review/SKILL.md`.
+Install each complete skill directory into a documented discovery location, such
+as `.opencode/skills/<name>/` for project-scoped OpenCode use, or
+`.claude/skills/<name>/` for project-scoped Claude use. OpenCode also supports
+`.claude/skills` compatibility discovery, so one reviewed copy may serve both tools.
+Use `~/.config/opencode/skills` or `~/.claude/skills` only when global installation
+is intended. Avoid duplicate IDs and preserve an existing skill of the same name.
+
+This source repository's `skills/` directory is not automatically installed merely
+by cloning it. Confirm discovery in the target tool and explicitly invoke the skill
+once before relying on automatic triggering. The evaluation cases are synthetic;
+they are not mandatory startup reads or automatic production review gates.
+
+### Updating installed files
+
 Maintain reusable defaults/helpers here and project-specific settings in projects.
 Diff the adopted version before updating; test in the consumer and record the new
 source commit. Keep local installed globals synchronized intentionally with the

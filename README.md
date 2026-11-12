@@ -8,6 +8,7 @@ A portable, model-independent foundation for agentic coding workflows.
 - `adapters/`: thin OpenCode, Claude Code and Cline entry points.
 - `templates/project/`: current-state summary, local rules and Git policy starters.
 - `scripts/git/`: read-only Git/GitHub status and readiness checks.
+- `skills/`: instruction-maintenance and code-review procedures with evaluation cases.
 - `test/`: synthetic policy, race-condition and disposable-repository CLI tests.
 - `docs/`: installation, verification, provenance and roadmap.
 
@@ -44,8 +45,9 @@ See [Git workflow](docs/GIT_WORKFLOW.md) for requirements and limitations.
 
 ## Status
 
-Initial reusable foundation. Instruction-maintenance and code-review skills are
-planned next; they are not included yet. See [roadmap](docs/ROADMAP.md).
+Initial reusable foundation with two review skills. Skill evaluation scenarios and
+their limitations are described in [skill evaluation](docs/SKILL_EVALUATION.md).
+See [roadmap](docs/ROADMAP.md) for remaining work.
 
 ## License
 

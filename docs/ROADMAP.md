@@ -4,7 +4,7 @@
 - [x] Project-rule/current-state/Git-policy templates.
 - [x] Read-only Git status/readiness helpers and synthetic regression tests.
 - [x] Explicit installation, upgrade and rollback guidance.
-- [ ] Owner-selected license for public reuse.
+- [x] Owner-selected MIT license for public reuse.
 - [x] Instruction-maintenance skill with preservation/scope/conflict checks.
 - [x] Code-review skill focused on correctness, economy and meaningful tests.
 - [ ] Broader skill adoption/trigger validation and owner feedback.

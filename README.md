@@ -51,5 +51,4 @@ See [roadmap](docs/ROADMAP.md) for remaining work.
 
 ## License
 
-No license has been selected yet. Public visibility alone does not grant an
-open-source license; the owner will select terms before broader reuse/distribution.
+Licensed under the [MIT License](LICENSE).

@@ -1,5 +1,12 @@
 # Change log
 
+## MIT license — 2026-11-12
+
+- Owner selected MIT. Added the standard license with copyright attribution to
+  `jansenkarl`, package metadata, and updated README/current-state/roadmap references.
+- Reviewed the license and metadata diff; whitespace checks passed. This
+  documentation/metadata change extends PR #1; merge awaits owner instruction.
+
 ## Review skills — 2026-11-12
 
 - Added instruction-maintenance and code-review skills, four synthetic evaluation

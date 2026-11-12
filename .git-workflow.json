@@ -1,0 +1,7 @@
+{
+  "repository": "jansenkarl/agent-harness",
+  "baseBranch": "main",
+  "workflow": "ci.yml",
+  "requiredJobs": ["validate"],
+  "publicationHold": { "active": false, "reason": "", "releaseCondition": "" }
+}

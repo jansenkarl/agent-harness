@@ -1,5 +1,14 @@
 # Change log
 
+## Harness methodology comparison — 2026-11-21
+
+- Added `docs/Nov21_Harness_Loop_Graph_Comparison.md`, comparing Whitemon's
+  practitioner article with the current policies, templates, Git helpers and tests.
+- Prioritized task contracts, bounded feedback, targeted policy checks and adoption
+  evidence; retained the recommendation to defer orchestration until justified.
+- Recommendations only; no runtime or authorization policy changes. Local baseline:
+  all 35 Git-helper tests passed. Article access and evidence limits are in the report.
+
 ## Remote-base freshness — 2026-11-20
 
 - Added a rule to the shared Git lifecycle (Isolate step) and global preferences:

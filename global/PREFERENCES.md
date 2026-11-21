@@ -23,6 +23,8 @@
 - Follow the project's Git lifecycle and publication authorization. Respect active
   local-only/CI holds; batch related work when CI is costly. Do not infer permission
   to publish from a request to continue implementation during a hold.
+- Treat the remote integration branch as the source of truth: fetch before creating
+  branches or reporting current release state, and branch from the remote ref.
 - Require explicit owner instruction for merges and separate authorization for
   production operations. Successful checks alone do not grant either permission.
 - Keep completion reports concise: outcome, validation, branch/commit/PR/CI state

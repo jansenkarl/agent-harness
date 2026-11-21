@@ -1,5 +1,16 @@
 # Change log
 
+## Remote-base freshness — 2026-11-20
+
+- Added a rule to the shared Git lifecycle (Isolate step) and global preferences:
+  fetch, branch from `origin/<baseBranch>`, and read release state from the fetched
+  remote branch. Origin: in a downstream project the local `main` lagged the remote
+  by a full release because PRs merged on the host and release work ran in another
+  worktree. A feature branch was then cut from the stale base and the production
+  version was misreported. Documentation-only; the read-only helpers still do not
+  check base freshness (possible follow-up: report behind-count in `git:status`).
+  Extends PR #1.
+
 ## MIT license — 2026-11-12
 
 - Owner selected MIT. Added the standard license with copyright attribution to

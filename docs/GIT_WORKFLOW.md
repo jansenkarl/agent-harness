@@ -20,6 +20,12 @@ green checks; never infer green checks from owner permission.
    not evidence of no PR.
 2. **Isolate:** create/reuse a scoped task branch. Do not implement on the integration
    branch. Use a separate worktree for unrelated concurrent work when appropriate.
+   Fetch first and create a new branch from the remote integration branch
+   (`origin/<baseBranch>`), not from an unverified local copy: local integration
+   branches lag whenever PRs merge on the host or work spans several worktrees.
+   Read current release/version state from the fetched remote branch, not from a
+   local checkout or task branch. Before rebasing or merging a long-lived branch,
+   report how far it is behind (`git rev-list --count HEAD..origin/<baseBranch>`).
 3. **Validate:** run project-specific checks, review the full diff and stage explicit
    paths/hunks. Commit coherent slices even while publication is held.
 4. **Publish:** recheck holds, refresh remote references, review against the current

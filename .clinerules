@@ -1,0 +1,15 @@
+# Harness repository rules
+
+- Read `.context.md` and `docs/GIT_WORKFLOW.md` after this file.
+- Keep changes portable and economical; reuse current modules before introducing
+  frameworks or new dependencies. Keep each source module focused and below 300
+  lines; if extraction is needed, split by responsibility, not arbitrary line count.
+- That source-size rule is currently a review rule, not an executable size check.
+- Do not publish private configuration, credentials, session transcripts, customer
+  data or another project's historical logs. Use synthetic fixtures.
+- Use task branches and scoped commits. Routine publication of requested work is
+  allowed unless explicitly held; merging and deployment require owner direction.
+- Check `.git-workflow.json` and current context for holds before publishing.
+- For code changes run `npm test`; for all edits inspect the diff and run
+  `git diff --check`. Record consequential decisions in `docs/CHANGELOG.md` and
+  replace stale current-state text rather than appending history to `.context.md`.

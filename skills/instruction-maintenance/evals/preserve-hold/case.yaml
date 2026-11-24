@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: preserve-hold
+expected_outcome: |
+  Preserve hold, deployment approval and v1 compatibility; scope pytest locally;
+  move history out of current state, deduplicate adapters and distinguish proposals
+  from edits and structural loader inspection from demonstrated loading.

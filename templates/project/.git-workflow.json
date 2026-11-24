@@ -1,0 +1,11 @@
+{
+  "repository": "OWNER/REPOSITORY",
+  "baseBranch": "main",
+  "workflow": "ci.yml",
+  "requiredJobs": ["validate"],
+  "publicationHold": {
+    "active": true,
+    "reason": "Template setup is incomplete; customize repository and CI settings.",
+    "releaseCondition": "Owner confirms configuration and authorizes publication."
+  }
+}

@@ -1,0 +1,11 @@
+# Project rules — customize before adoption
+
+- Read `.context.md`, then `docs/GIT_WORKFLOW.md` at task startup.
+- Record this project's architecture boundaries, source-size policy and validation
+  commands here. Distinguish advisory targets from executable checks.
+- Keep changes scoped; preserve unrelated edits; test relevant behavior and failure
+  modes. Run the project's documented checks before reporting completion.
+- Use the shared Git lifecycle; respect explicit publication holds and require
+  owner instruction for merge and separate authorization for production operations.
+- Put detailed outcomes in `docs/BUILD_LOG.md`; keep `.context.md` current state.
+- Do not place secrets or private customer information in instructions or logs.

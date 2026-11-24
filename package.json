@@ -1,0 +1,15 @@
+{
+  "name": "agent-harness",
+  "version": "0.1.0",
+  "license": "MIT",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "test": "vitest run --maxWorkers=1",
+    "git:status": "node scripts/git/workflow.mjs status",
+    "git:ready:publish": "node scripts/git/workflow.mjs publish",
+    "git:ready:merge": "node scripts/git/workflow.mjs merge"
+  },
+  "devDependencies": { "vitest": "4.1.12" }
+}

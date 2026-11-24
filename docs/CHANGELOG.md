@@ -1,5 +1,16 @@
 # Change log
 
+## Main branch protection — 2026-11-23
+
+- With explicit owner approval, created active GitHub ruleset `Protect main`
+  (ID `27957943`) targeting `refs/heads/main`, with no bypass actors.
+- Requires PRs, resolved review conversations, and the GitHub Actions `validate`
+  check with an up-to-date branch. Blocks deletion and force pushes. Required
+  approving reviews remain zero so a solo maintainer can merge their own PR.
+- Verified the saved ruleset and effective branch rules through the GitHub API.
+  This is configuration evidence, not a destructive bypass test. PR #1 remains
+  open; merge still requires separate owner authorization.
+
 ## Harness methodology comparison — 2026-11-21
 
 - Added `docs/Nov21_Harness_Loop_Graph_Comparison.md`, comparing Whitemon's
